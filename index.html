@@ -1,0 +1,298 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us | KCC Hotels</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+background:#f9f9f9;
+color:#333;
+}
+
+header{
+background:#000;
+padding:20px;
+text-align:center;
+}
+
+header h1{
+color:gold;
+font-size:40px;
+letter-spacing:2px;
+}
+
+.banner{
+height:300px;
+background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+url("images/contact-banner.jpg");
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.banner h2{
+color:white;
+font-size:50px;
+}
+
+.container{
+
+max-width:1200px;
+margin:auto;
+padding:60px 20px;
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+
+}
+
+.info{
+
+background:white;
+padding:40px;
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,.1);
+
+}
+
+.info h3{
+
+color:gold;
+font-size:30px;
+margin-bottom:20px;
+
+}
+
+.info p{
+
+font-size:18px;
+line-height:35px;
+
+}
+
+.form-box{
+
+background:white;
+padding:40px;
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,.1);
+
+}
+
+.form-box h3{
+
+color:gold;
+font-size:30px;
+margin-bottom:20px;
+
+}
+
+input,textarea{
+
+width:100%;
+padding:15px;
+margin-bottom:20px;
+border:1px solid #ccc;
+border-radius:5px;
+font-size:16px;
+
+}
+
+textarea{
+
+resize:none;
+
+}
+
+button{
+
+background:gold;
+color:black;
+padding:15px;
+width:100%;
+font-size:18px;
+border:none;
+cursor:pointer;
+transition:.3s;
+
+}
+
+button:hover{
+
+background:black;
+color:gold;
+
+}
+
+.map{
+
+padding:40px;
+
+}
+
+iframe{
+
+width:100%;
+height:400px;
+border:none;
+
+}
+
+footer{
+
+background:black;
+color:white;
+padding:30px;
+text-align:center;
+
+}
+
+.social a{
+
+color:gold;
+margin:10px;
+text-decoration:none;
+font-size:18px;
+
+}
+
+@media(max-width:768px){
+
+.container{
+
+grid-template-columns:1fr;
+
+}
+
+.banner h2{
+
+font-size:35px;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>KCC HOTELS</h1>
+
+</header>
+
+<section class="banner">
+
+<h2>Contact Us</h2>
+
+</section>
+
+<section class="container">
+
+<div class="info">
+
+<h3>Get In Touch</h3>
+
+<p>
+
+📍 Your Hotel Address<br><br>
+
+📞 +234 XXX XXX XXXX<br><br>
+
+📧 reservations@kcchotels.com<br><br>
+
+🕒 Open 24 Hours
+
+</p>
+
+</div>
+
+<div class="form-box">
+
+<h3>Send Us A Message</h3>
+
+<form action="https://formsubmit.co/yourgmail@gmail.com" method="POST">
+
+<input type="hidden" name="_captcha" value="false">
+
+<input type="hidden" name="_subject" value="New Contact Message From KCC Hotels">
+
+<input type="hidden" name="_template" value="table">
+
+<input type="hidden" name="_autoresponse" value="Thank you for contacting KCC Hotels. We have received your message and will respond as soon as possible.">
+
+<input type="text" name="Full Name" placeholder="Full Name" required>
+
+<input type="email" name="Email" placeholder="Email Address" required>
+
+<input type="tel" name="Phone" placeholder="Phone Number">
+
+<input type="text" name="Subject" placeholder="Subject">
+
+<textarea name="Message" rows="6" placeholder="Type your message..." required></textarea>
+
+<button type="submit">
+
+SEND MESSAGE
+
+</button>
+
+</form>
+
+</div>
+
+</section>
+
+<section class="map">
+
+<iframe
+src="https://www.google.com/maps/embed?pb="
+loading="lazy">
+</iframe>
+
+</section>
+
+<footer>
+
+<h2 style="color:gold;">KCC HOTELS</h2>
+
+<p>Luxury • Comfort • Excellence</p>
+
+<div class="social">
+
+<a href="#">Facebook</a>
+
+<a href="#">Instagram</a>
+
+<a href="#">WhatsApp</a>
+
+<a href="#">X</a>
+
+</div>
+
+<p style="margin-top:20px;">
+© 2026 KCC Hotels. All Rights Reserved.
+</p>
+
+</footer>
+
+</body>
+
+</html>
+```
